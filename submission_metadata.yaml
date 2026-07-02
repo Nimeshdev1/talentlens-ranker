@@ -1,0 +1,43 @@
+team_name: "BeyondResume"
+
+primary_contact:
+  name: "Nimesh Jaiswal"
+  email: "buildbydev1@gmail.com"
+
+github_repo: "https://github.com/Nimeshdev1/talentlens-ranker"
+
+sandbox_link: "https://huggingface.co/spaces/devminds01/talentlens-ranker"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Windows 11 Pro"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude for architecture discussion, code review, and optimization suggestions.
+  No candidate data was fed to any LLM. All ranking logic runs locally with zero network calls.
+
+methodology_summary: |
+  Statistical multi-factor scoring engine with 4 dimensions: Skills (40%), Career (30%),
+  Availability (20%), Location (10%). Uses sigmoid normalization, exponential decay models,
+  and career velocity tracking. 7-point honeypot detection system. Skill ontology with 15+
+  canonical categories and alias matching. JD-aligned penalties for consulting-only backgrounds
+  and irrelevant titles. Runtime: 44s for 100K candidates on CPU.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
