@@ -313,7 +313,7 @@ All ranking is performed **locally**, ensuring complete privacy and reproducibil
 
 # 👥 Team
 
-**Team Name:** Nimeshdev1
+**Team Name:** BeyondResume
 
 Hackathon Submission for:
 
