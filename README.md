@@ -1,7 +1,7 @@
 # 🏆 TalentLens Ranker — Intelligent Candidate Discovery
 
 > **Redrob AI / Hack2Skill India.RUNS — Track 1**  
-> **Team:** Nimeshdev1
+> **Team:** BeyondResume
 
 ---
 
